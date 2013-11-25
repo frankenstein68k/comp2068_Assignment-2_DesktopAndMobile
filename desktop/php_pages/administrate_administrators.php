@@ -45,12 +45,12 @@ if ($access_level == 1) {
 if ($access_level > 1) {
 	echo "<h2>Welcome to the Administrative Area</h2>";
 	echo "<h3>Admin Users</h3>";
-	echo "<div><!--Creates a table for users--><table border=\"1\"><tr><th>Last name</th><th>First name</th><th>Email</th><th>Access Level</th><th>Update Information</th><th>Delete User</th></tr></div>";
+	echo "<div><!--Creates a table for users--><table border=\"1\"><tr><th>Last name</th><th>First name</th><th>Email</th><th>Username</th><th>Access Level</th><th>Update Information</th><th>Delete User</th></tr></div>";
 	
 	
 //Connection information and SQL query
 $conn = mysqli_connect('webdesign4.georgianc.on.ca', 'db200249489', '12154', 'db200249489') or die('Connect Error');
-$sql = "SELECT admin_lname, admin_fname, admin_email, admin_access_level, admin_id FROM comp2068_admin_users ORDER BY admin_lname";
+$sql = "SELECT admin_lname, admin_fname, admin_email, admin_username, admin_access_level, admin_id FROM comp2068_admin_users ORDER BY admin_lname";
 	
 $result = mysqli_query($conn, $sql);
 	
@@ -58,8 +58,9 @@ $result = mysqli_query($conn, $sql);
 while ($row = mysqli_fetch_array($result)) {
 	echo '<tr><td>' . $row['admin_lname'] . '</td>
 		<td>' . $row['admin_fname'] . '</td>
-		<td>' . $row['admin_email'] . '</a></td>
-		<td>' . $row['admin_access_level'] . '</a></td>
+		<td>' . $row['admin_email'] . '</td>
+		<td>' . $row['admin_username'] . '</td>
+		<td>' . $row['admin_access_level'] . '</td>
 		<td><a href="edit_admin_users.php?id=' . $row['admin_id'] . '">Edit</a></td>
 		<td><a href="delete_admin_users.php?id=' . $row['admin_id'] . '" onclick="return confirm(\'Are you want to delete this business contact?\');">Delete</a></td></tr>';
 }
