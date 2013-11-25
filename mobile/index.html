@@ -1,0 +1,470 @@
+<!--File name: index.html-->
+<!--Author: Neil MacKenzie-->
+<!--Website name: Mobile Personal Portfolio site-->
+<!--File description: HTML5 text document, created with JQuery, edited in Aptana Studio 3, links to CSS3 and JavaScript files -->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<title>Neil MacKenzie</title>
+
+		<!-- Stylesheets -->
+		<!--Fontello-->
+		<link rel="stylesheet" href="css/fontello.css">
+		<!--ThemeRoller-->
+		<link rel="stylesheet" href="themes/ModifiedVortexMACOSX.min.css" />
+		<!--JQuery-->
+		<link rel="stylesheet" href="https://d10ajoocuyu32n.cloudfront.net/mobile/1.3.1/jquery.mobile-1.3.1.min.css">
+
+		<!-- Extra Codiqa features -->
+		<link rel="stylesheet" href="css/codiqa.ext.css">
+
+		<!-- jQuery and jQuery Mobile -->
+		<script src="https://d10ajoocuyu32n.cloudfront.net/jquery-1.9.1.min.js"></script>
+		<script src="https://d10ajoocuyu32n.cloudfront.net/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+
+		<!-- Extra Codiqa features -->
+		<script src="https://d10ajoocuyu32n.cloudfront.net/codiqa.ext.js"></script>
+
+	</head>
+	<body>
+
+		<!-- Home -->
+		<div data-role="page" id="homepage" >
+			<div data-role="content">
+
+				<!-- Header and Navbar-->
+				<div class="mac_header">
+					<img class="logo_img" src="img/logo_v2_mobile.gif" alt="image">
+					<h5 class="logo_text">Neil MacKenzie</h5>
+				</div>
+				<div data-role="navbar" data-iconpos="top">
+					<ul>
+						<li>
+							<a href="#homepage" data-transition="fade" data-theme="" data-icon="home"> Home </a>
+						</li>
+						<li>
+							<a href="#about_me" data-transition="fade" data-theme="" data-icon="info"> About Me </a>
+						</li>
+						<li>
+							<a href="#contact_me" data-transition="fade" data-theme="" data-icon="edit"> Contact Me </a>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<!--Image from http://openiconlibrary.sourceforge.net -->
+							<a href="#projects" data-transition="fade" data-theme=""> <img class="fp_pict" src="img/projects.png"></a>
+						</li>
+						<li>
+							<!--Image from http://openiconlibrary.sourceforge.net -->
+							<a href="#services" data-transition="fade" data-theme=""><img class="fp_pict" src="img/services.png"> </a>
+						</li>
+					</ul>
+				</div>
+				<!-- End of Header and Navbar -->
+
+				<!-- Beginning of main content -->
+				<div class="main_content">
+					<div id="slider_placeholder">
+						<!--Working Slider goes here-->
+						<img src="img/slider_placeholder.png" id="slider_image">
+					</div>
+				</div>
+				<!-- End of main content -->
+
+				<!-- Beginning of footer -->
+				<div data-theme="a" data-role="footer" data-position="fixed">
+					<h3> Neil MacKenzie &copy; 2013 </h3>
+					<h3><a href="http://webdesign4.georgianc.on.ca/~200249489/comp2068/assignment1/index.php?view=full" target="_new"> Full Site </a></h3>
+				</div>
+				<!-- End of footer -->
+			</div>
+		</div>
+		<!--End of home page--->
+
+		<!--Beginning of about me page -->
+		<div data-role="page" id="about_me">
+			<div data-role="content">
+				<!-- Header and Navbar -->
+				<div class="mac_header">
+					<img class="logo_img" src="img/logo_v2_mobile.gif" alt="image">
+					<h5 class="logo_text">Neil MacKenzie</h5>
+				</div>
+				<div data-role="navbar" data-iconpos="top">
+					<ul>
+						<li>
+							<a href="#homepage" data-transition="fade" data-theme="" data-icon="home"> Home </a>
+						</li>
+						<li>
+							<a href="#about_me" data-transition="fade" data-theme="" data-icon="info"> About Me </a>
+						</li>
+						<li>
+							<a href="#contact_me" data-transition="fade" data-theme="" data-icon="edit"> Contact Me </a>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<a href="#projects" data-transition="fade" data-theme="" data-icon="gear"> Projects </a>
+						</li>
+						<li>
+							<a href="#services" data-transition="fade" data-theme="" data-icon="check"> Services </a>
+						</li>
+						<li>
+							<a href="#" data-transition="fade" data-theme="" data-icon="arrow-l" data-rel="back"> Back </a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- End of Header and Navbar -->
+
+			<!-- Beginning of main content -->
+			<div class="main_content">
+				<img id="portrait" src="img/p1040983_small.jpg">
+				<h1>Consistency and Quality</h1>
+				<!--This is my tagline -->
+				<section>
+					<h2>Mission Statement</h2>
+					<!--This is my mission statement -->
+					<p>
+						My approach to work is to learn what is best and find a way to work efficiently. Consistency and reliability is a sign of a good process.
+					</p>
+
+					<h2>Who am I?</h2>
+					<!--Bio section-->
+					<p>
+						My name is Neil MacKenzie and I am currently studying Computer Programming at Georgian College in Barrie, Ontario.
+					</p>
+					<h2>Where have I trained?</h2>
+					<p>
+						<ul>
+							<li>
+								Ryerson Unversity - Bachelor of Technology, Graphic Communications Management
+							</li>
+							<li>
+								Queen's University - Bachelor of Education, Technological Education
+							</li>
+							<li>
+								Georgian College - Ontario College Diploma, Computer Programmer
+							</li>
+						</ul>
+					</p>
+					<h2>Where have I worked?</h2>
+					<p>
+						<ul>
+							<li>
+								Camslide East, Newmarket, Ontario
+							</li>
+							<li>
+								Thyssen Krupp, Aurora, Ontario
+							</li>
+							<li>
+								Dynamic Suspensions, Newmarket, Ontario
+							</li>
+							<li>
+								RR Donnelley Financial Printing, Toronto, Ontario
+							</li>
+							<li>
+								TI Group - Integrated Visual Communications, Toronto, Ontario
+							</li>
+						</ul>
+					</p>
+					<h2>What do I enjoy?</h2>
+					<p>
+						<ul>
+							<li>
+								Cycling
+							</li>
+							<li>
+								Running
+							</li>
+							<li>
+								Camping
+							</li>
+							<li>
+								Travelling
+							</li>
+							<li>
+								Cinema
+							</li>
+						</ul>
+					</p>
+					<h2>Would you like to see my resume?</h2>
+					<p>
+						<a href="other_assets/NMacKenzie_Resume.pdf" target="_blank">Resume/CV</a>
+					</p>
+				</section>
+			</div>
+			<!-- End of main content -->
+
+			<!-- Beginning of footer -->
+			<div data-theme="a" data-role="footer" data-position="fixed">
+				<h3> Neil MacKenzie &copy; 2013 </h3>
+				<h3><a href="http://webdesign4.georgianc.on.ca/~200249489/comp2068/assignment1/index.php?view=full" target="_new"> Full Site </a></h3>
+			</div>
+			<!-- End of footer -->
+		</div>
+		<!--End of about me -->
+
+		<!--Beginning of Projects page -->
+		<div data-role="page" id="projects">
+			<div data-role="content">
+				<!-- Beginning of Header and Navbar-->
+				<div class="mac_header">
+					<img class="logo_img" src="img/logo_v2_mobile.gif" alt="image">
+					<h5 class="logo_text">Neil MacKenzie</h5>
+				</div>
+				<div data-role="navbar" data-iconpos="top">
+					<ul>
+						<li>
+							<a href="#homepage" data-transition="fade" data-theme="" data-icon="home"> Home </a>
+						</li>
+						<li>
+							<a href="#about_me" data-transition="fade" data-theme="" data-icon="info"> About Me </a>
+						</li>
+						<li>
+							<a href="#contact_me" data-transition="fade" data-theme="" data-icon="edit"> Contact Me </a>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<a href="#projects" data-transition="fade" data-theme="" data-icon="gear"> Projects </a>
+						</li>
+						<li>
+							<a href="#services" data-transition="fade" data-theme="" data-icon="check"> Services </a>
+						</li>
+						<li>
+							<a href="#" data-transition="fade" data-theme="" data-icon="arrow-l" data-rel="back"> Back </a>
+						</li>
+					</ul>
+				</div>
+				<!-- End of Header and Navbar -->
+
+				<!-- Beginning of main content -->
+				<div class="main_content">
+					<div id="projects_formatting">
+						<div>
+							<p id="sonnenblume">
+								<a href="https://github.com/frankenstein68k/Sonnenblume---Arduino-"><img class="projects_image" src="img/sonnenblume.jpg"></a>
+								<h2>Sonnenblume</h2>
+								<h3>View the <a href="https://github.com/frankenstein68k/Sonnenblume---Arduino-">code</a> for an arduino powered solar tracker
+								<br>
+								Here is a <a href="http://youtu.be/Nqjzh3WYLVo"> link</a> to a video of it in action</h3>
+							</p>
+						</div>
+
+						<div>
+							<p id="website">
+								<a href="https://github.com/frankenstein68k/comp2068_portfolio"><img class="projects_image" src="img/personal_portfolio_website.png"></a>
+								<h2>This Website</h2>
+								<h3>View the <a href="https://github.com/frankenstein68k/comp2068_portfolio">code</a> for the non-mobile website!</h3>
+							</p>
+						</div>
+						<div>
+							<p id="atxpower">
+								<a href="http://www.robotshop.com/ca/productinfo.aspx?pc=RB-Spa-441&lang=en-US"><img class="projects_image" src="img/atx_power_boardv2.jpg"></a>
+								<h2>Benchtop Power Board for ATX power supplies</h2>
+								<h3>This power board allows you to hook up standard and abundant computer power supplies as a hobby power supply. The four voltages available are 3.3V, 5V, 12V and -12V.
+								<br>
+								<a href="http://www.robotshop.com/ca/productinfo.aspx?pc=RB-Spa-441&lang=en-US">Link to a Canadian supplier</a></h3>
+							</p>
+						</div>
+						<div>
+							<p id="barrielong">
+								<a href="http://youtu.be/uBhtrYXqIH4"><img class="projects_image" src="img/barrie_long.png"></a>
+								<h2>Time Lapse movie of driving from Newmarket to Barrie</h2>
+								<h3>Driving from Newmarket to Barrie the long way, avoiding Highway 400 and taking Yonge Street
+								<br>
+								<a href="http://youtu.be/uBhtrYXqIH4">Link to the video</a></h3>
+							</p>
+						</div>
+						<div>
+							<p id="barriesnow">
+								<a href="http://youtu.be/t_sim8e-1IU"><img class="projects_image" src="img/barrie_snowy.png"></a>
+								<h2>Time Lapse movie of driving from Barrie to Newmarket</h2>
+								<h3>Driving from Barrie to Newmarket in snowy weatehr in the afternoon
+								<br>
+								<a href="http://youtu.be/t_sim8e-1IU">Link to the video</a></h3>
+							</p>
+						</div>
+						<div>
+							<p id="toronto">
+								<a href="http://youtu.be/Llly3_LtW7o"><img class="projects_image" src="img/toronto.png"></a>
+								<h2>Time Lapse movie of driving from Newmarket to Toronto</h2>
+								<h3>Driving out of Newmarket with Highway 9 and entering Highway 400
+								<br>
+								<a href="http://youtu.be/Llly3_LtW7o">Link to the video</a></h3>
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<!-- End of main content -->
+
+				<!-- Beginning of footer -->
+				<div data-theme="a" data-role="footer" data-position="fixed">
+					<h3> Neil MacKenzie &copy; 2013 </h3>
+					<h3><a href="http://webdesign4.georgianc.on.ca/~200249489/comp2068/assignment1/index.php?view=full" target="_new"> Full Site </a></h3>
+				</div>
+				<!-- End of footer -->
+			</div>
+		</div>
+		</div>
+		<!--End of Projects page -->
+
+		<!--Beginning of Services page -->
+		<div data-role="page" id="services">
+			<div data-role="content">
+
+				<!-- Beginning Header and Navbar-->
+				<div class="mac_header">
+					<img class="logo_img" src="img/logo_v2_mobile.gif" alt="image">
+					<h5 class="logo_text">Neil MacKenzie</h5>
+				</div>
+				<div data-role="navbar" data-iconpos="top">
+					<ul>
+						<li>
+							<a href="#homepage" data-transition="fade" data-theme="" data-icon="home"> Home </a>
+						</li>
+						<li>
+							<a href="#about_me" data-transition="fade" data-theme="" data-icon="info"> About Me </a>
+						</li>
+						<li>
+							<a href="#contact_me" data-transition="fade" data-theme="" data-icon="edit"> Contact Me </a>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<a href="#projects" data-transition="fade" data-theme="" data-icon="gear"> Projects </a>
+						</li>
+						<li>
+							<a href="#services" data-transition="fade" data-theme="" data-icon="check"> Services </a>
+						</li>
+						<li>
+							<a href="#" data-transition="fade" data-theme="" data-icon="arrow-l" data-rel="back"> Back </a>
+						</li>
+					</ul>
+				</div>
+				<!-- End of Header and Navbar -->
+
+				<!-- Beginning of main content -->
+				<div class="main_content">
+					<h2>Services</h2>
+					<p>
+						<ul>
+							<li>
+								Desktop Publishing - Design, prepress and bindery
+							</li>
+							<li>
+								Computer Administration - Setting up new computers, installing important software, connecting networks
+							</li>
+							<li>
+								Webdesign - Design, administration and server-side scripting
+							</li>
+							<li>
+								Database - Inputting new data, sorting, organizing and purging data
+							</li>
+							<li>
+								Programming - Experience in creating Java and C# programs
+							</li>
+							<li>
+								Troubleshooting - Diagnosing issues, coming up with solutions, implementing fixes
+							</li>
+							<li>
+								Quality Control - Benchmarking items against specifications and recording data for statistical analysis
+							</li>
+							<li>
+								Client education - Providing information and training to clients so that they can use tools and services better
+							</li>
+							<li>
+								Mobility - Full G Ontario licence with reliable transportation
+							</li>
+							<li>
+								Network support - Ability to set up, maintain and troubleshoot wired and wireless networks
+							</li>
+						</ul>
+					</p>
+				</div>
+				<!-- End of main content -->
+
+				<!-- Beginning of footer -->
+				<div data-theme="a" data-role="footer" data-position="fixed">
+					<h3> Neil MacKenzie &copy; 2013 </h3>
+					<h3><a href="http://webdesign4.georgianc.on.ca/~200249489/comp2068/assignment1/index.php?view=full" target="_new"> Full Site </a></h3>
+				</div>
+				<!-- End of footer -->
+			</div>
+		</div>
+		<!--End of Services page -->
+
+		<!--Beginning of Contact Me page -->
+		<div data-role="page" id="contact_me">
+			<div data-role="content">
+
+				<!-- Beginning of Header and Navbar-->
+				<div class="mac_header">
+					<img class="logo_img" src="img/logo_v2_mobile.gif" alt="image">
+					<h5 class="logo_text">Neil MacKenzie</h5>
+				</div>
+				<div data-role="navbar" data-iconpos="top">
+					<ul>
+						<li>
+							<a href="#homepage" data-transition="fade" data-theme="" data-icon="home"> Home </a>
+						</li>
+						<li>
+							<a href="#about_me" data-transition="fade" data-theme="" data-icon="info"> About Me </a>
+						</li>
+						<li>
+							<a href="#contact_me" data-transition="fade" data-theme="" data-icon="edit"> Contact Me </a>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<a href="#projects" data-transition="fade" data-theme="" data-icon="gear"> Projects </a>
+						</li>
+						<li>
+							<a href="#services" data-transition="fade" data-theme="" data-icon="check"> Services </a>
+						</li>
+						<li>
+							<a href="#" data-transition="fade" data-theme="" data-icon="arrow-l" data-rel="back"> Back </a>
+						</li>
+					</ul>
+				</div>
+				<!-- End of Header and Navbar -->
+
+				<!-- Beginning of main content -->
+				<div class="main_content">
+					<h2>Contact Info</h2>
+					<p>
+						Neil MacKenzie
+						<br>
+						Email: nmackenz@gmail.com
+						<br>
+						Address: 281 Osmond Crescent, Newmarket, Ontario
+						<br>
+						Phone: <a href="tel:4169127122">(416) 912-7122</a>
+						<br>
+					</p>
+					<aside class="aside">
+						<h3>Keep Connected</h3>
+						<p>
+							Feel free to follow me on <a class="icon-youtube-squared" href="http://www.youtube.com/channel/UCuf1jIkrQFTBj_tiAnTjfvQ/videos">Youtube</a>, <a class="icon-twitter-squared" href="https://twitter.com/frankenstein68k">Twitter</a>, <a class="icon-linkedin-squared" href="ca.linkedin.com/pub/neil-mackenzie/35/4a6/925/">LinkedIn</a> and <a class="icon-github-squared" href="https://github.com/frankenstein68k">GitHub</a>
+						</p>
+					</aside>
+
+				</div>
+				<!-- End of main content -->
+
+				<!-- Beginning of footer -->
+				<div data-theme="a" data-role="footer" data-position="fixed">
+					<h3> Neil MacKenzie &copy; 2013 </h3>
+					<h3><a href="http://webdesign4.georgianc.on.ca/~200249489/comp2068/assignment1/index.php?view=full" target="_new"> Full Site </a></h3>
+				</div>
+				<!-- End of footer -->
+			</div>
+		</div><!--End of Contact Me page -->
+	</body>
+</html>

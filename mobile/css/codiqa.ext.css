@@ -1,0 +1,96 @@
+/*
+ * File name: codiq.ext.css
+ * Author: Neil MacKenzie
+ * Website name: Mobile Personal Portfolio site
+ * File description: CSS3 text document, created with JQuery, edited in Aptana Studio 3, used to control the general layout of the site
+ */
+
+/*
+ * Header related CSS
+ */
+
+.mac_header {
+	width: 100%;
+	height: 100px;
+	position: relative;
+	background-color: #fbfbfb;
+	border: 1px solid #b8b8b8;
+}
+
+.logo_img {
+	float: left;
+	color: blue;
+}
+
+.logo_text {
+	float: right;
+	padding-right: 5%;
+}
+
+h5.logo_text {
+	position: relative;
+	top: 50%;
+	margin: auto;
+	font-size: 100%;
+}
+
+/*
+ * Front page specific CSS
+ */
+
+.fp_pict {
+	height: 50%;
+	width: 50%;
+	position: relative;
+}
+
+/*
+ * Projects page specific CSS
+ */
+
+.projects_image {
+	width: 90%;
+}
+
+#projects_formatting {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#portrait {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#slider_placeholder {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#slider_image {
+	width: 90%;
+}
+
+/*
+ * CSS relating to every page
+ */
+
+/*
+ * Webfonts
+ */
+* {
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.main_content {
+	padding: 5%;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
