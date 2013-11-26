@@ -21,9 +21,7 @@ header('Location: http://webdesign4.georgianc.on.ca/~200249489/comp2068/project1
 		<title>Neil MacKenzie</title>
 		<link rel="stylesheet" href="css/style.css">
 	</head>
-
 	<body>
-
 		<div id="container">
 			<header class="title">
 				<div>
