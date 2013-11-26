@@ -2,12 +2,7 @@
  style.css / Neil MacKenzie / COMP 2068 Personal Portfolio / provides the code to the browser for visual formatting / CSS
  */
 
-/*Neil edits
- */
 
-/*
- * Webfonts
- */
 * {
 	font-family: Helvetica, Arial, sans-serif;
 }
@@ -46,8 +41,8 @@ body, button, input, select, textarea {
 .footer h4 {
 	text-align: center;
 }
-/*Good edit*/
 
+/*Nav Bar*/
 #simplenav {
 	width: auto %;
 	float: left;
@@ -83,9 +78,10 @@ body, button, input, select, textarea {
 	background-color: #7299BD;
 }
 
-#featured{
+#featured {
 	float: left;
 }
+
 
 /*testing*/
 div #main {
@@ -122,12 +118,34 @@ footer {
 	float: right;
 }
 
-.projects {
-	float: right;
-	max-height: 200px;
+.project_div {
+	height: 200px;
+	display: block;
+	border: 1px dotted black;
+	position: relative;
 }
 
-#calltoaction{
+.project_text {
+	float: left;
+	height: 100%;
+	width: 45%;
+	display: inline-block;
+	position: relative;
+	border: 1px solid black;
+}
+
+.project_pict {
+	/*float: right;*/
+	width: 45%;
+	height: 95%;
+	display: inline-block;
+	position: relative;
+	border: 1px solid black;
+}
+
+
+
+#calltoaction {
 	width: 10%;
 	background: #2E637F;
 	text-align: center;
@@ -135,9 +153,9 @@ footer {
 	padding: 10px;
 }
 
-#calltoaction a.link{
-		color: #FFFBDD;
-text-decoration: none;
+#calltoaction a.link {
+	color: #FFFBDD;
+	text-decoration: none;
 }
 
 /*
@@ -146,13 +164,13 @@ text-decoration: none;
 
 /* Slider */
 .slider {
-position: absolute;
-    height: 250px;
-    left: 50%;
-    margin: -125px -225px;
-    position: absolute;
-    top: 48%;
-    width: 450px;
+	position: absolute;
+	height: 250px;
+	left: 50%;
+	margin: -125px -225px;
+	position: absolute;
+	top: 48%;
+	width: 450px;
 }
 
 .slider .frames {
